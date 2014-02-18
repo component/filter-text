@@ -1,0 +1,13 @@
+{
+  "name": "filter-text",
+  "description": "find all the text nodes that match a criteria",
+  "version": "1.0.0",
+  "repo": "component/filter-text",
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "development": {
+    "component/assert": "*"
+  }
+}
