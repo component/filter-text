@@ -20,7 +20,7 @@ div
 ```js
 var find = require('filter-text')
 var results = find(document.querySelector('section'), function (el) {
-  return el.match(/text/)
+  return el.textContent.match(/text/)
 })
 => ["some text", "more text", "asdf text"]
 ```
